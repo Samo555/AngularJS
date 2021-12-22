@@ -48,3 +48,4 @@ Thumbs.db
 # Petq che
 .vscode/
 package-lock.json
+.angular
