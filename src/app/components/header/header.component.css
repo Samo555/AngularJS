@@ -1,3 +1,19 @@
-p {
-    color: red;
+nav {
+    background-color: #0101a3;
+}
+.navf {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 15px solid #e92bde;
+    align-items: center;
+}
+.navt {
+    font-size: 24px;
+    color: #fefefe;
+    font-family: "Bebas Neue";
+    margin: 0 15px;
+}
+.navff {
+    display: flex;
 }
