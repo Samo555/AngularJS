@@ -1,0 +1,81 @@
+footer {
+    background: linear-gradient(#000047, #0101a3);
+}
+.img {
+    padding: 60px;
+}
+ul {
+    padding: 0;
+    margin-right: 60px;
+}
+li {
+    display: block;
+    font-size: 23px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    margin: 10px 0;
+}
+.flex {
+    display: flex;
+    padding-top: 60px;
+}
+.row {
+    width: 100%;
+    height: 15px;
+    background-color: #e92bde;
+}
+.floor {
+    display: flex;
+    background-color: #0101a3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.cy {
+    font-size: 23px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    display: flex;
+}
+.vid {
+    display: flex;
+    align-items: center;
+}
+.vidid {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.vidid p {
+    margin-left: 10px;
+}
+.vid p {
+    font-size: 20px;
+    color: #e92bde;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
+a {
+    text-decoration: none;
+    color: #fefefe;
+    position: relative;
+}
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #e92bde;
+    left: 0;
+    bottom: -7px;
+    transform: scale(0,1);
+    transition: 0.5s;
+}
+a:hover::before {
+    transform: scale(1,1);
+}
+.gic {
+    margin: 0 5px;
+}
