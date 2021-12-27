@@ -12,4 +12,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sis() {
+    let menu = document.querySelector('.menu');
+    if(menu) {
+      menu.classList.toggle('bot');
+    } 
+  }
 }

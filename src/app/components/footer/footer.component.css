@@ -32,6 +32,44 @@ li {
     justify-content: space-between;
     padding: 20px 60px;
 }
+.img a {
+    text-decoration: none;
+    color: #fefefe;
+    position: relative;
+}
+.img a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #e92bde;
+    left: 0;
+    bottom: -7px;
+    transform: scale(0,1);
+    transition: 0.5s;
+}
+.img a:hover::before {
+    transform: scale(1,1);
+}
+.cy a {
+    text-decoration: none;
+    color: #fefefe;
+    position: relative;
+}
+.cy a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #e92bde;
+    left: 0;
+    bottom: -7px;
+    transform: scale(0,1);
+    transition: 0.5s;
+}
+.cy a:hover::before {
+    transform: scale(1,1);
+}
 .cy {
     font-size: 23px;
     color: #fefefe;
@@ -50,6 +88,11 @@ li {
 }
 .vidid p {
     margin-left: 10px;
+    cursor: pointer;
+    color: #e92bde;
+}
+.vid a {
+    text-decoration: none;
 }
 .vid p {
     font-size: 20px;
@@ -57,25 +100,22 @@ li {
     font-weight: 400;
     font-family: "Bebas Neue";
 }
-a {
-    text-decoration: none;
-    color: #fefefe;
-    position: relative;
-}
-a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    background-color: #e92bde;
-    left: 0;
-    bottom: -7px;
-    transform: scale(0,1);
-    transition: 0.5s;
-}
-a:hover::before {
-    transform: scale(1,1);
-}
 .gic {
     margin: 0 5px;
+}
+@media screen and (max-width: 700px) {
+    .floor {
+        flex-wrap: wrap;
+    }
+    .cy {
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 533px) {
+    .floor {
+        flex-direction: column;
+    }
+    .vid {
+        flex-direction: column;
+    }
 }
