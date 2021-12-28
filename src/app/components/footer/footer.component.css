@@ -110,6 +110,13 @@ li {
     .cy {
         margin-left: 25px;
     }
+    .img {
+        padding: 45px;
+        padding-bottom: 30px;
+    }
+    .flex {
+        padding-top: 35px;
+    }
 }
 @media screen and (max-width: 533px) {
     .floor {
@@ -117,5 +124,12 @@ li {
     }
     .vid {
         flex-direction: column;
+    }
+    .img {
+        padding: 35px;
+        padding-bottom: 20px;
+    }
+    .flex {
+        padding-top: 20px;
     }
 }
